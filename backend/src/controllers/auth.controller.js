@@ -16,7 +16,7 @@ export async function signup(req, res) {
         .json({ message: "Password must be at least 6 characters" });
     }
 
-    const emailRegex = /^[^\s@]+s@[^\s@]+\.[^\s@]+$/;
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
 
     if (!emailRegex.test(email)) {
       return res.status(400).json({ message: "Invalid email format" });

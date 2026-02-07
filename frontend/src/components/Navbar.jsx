@@ -48,7 +48,7 @@ const Navbar = () => {
             <div className="w-9 rounded-full">
               {authUser && (
                 <img
-                  src={`https://api.dicebear.com/7.x/avataaars/svg?seed=${authUser.id}`}
+                  src={`https://api.dicebear.com/7.x/avataaars/svg?seed=${authUser._id}`}
                   alt="User Avatar"
                   referrerPolicy="no-referrer"
                 />

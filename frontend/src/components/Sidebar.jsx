@@ -57,7 +57,7 @@ const Sidebar = () => {
             <div className="w-10 rounded-full">
               {/* <img src={authUser?.profilePic} alt="User Avatar" /> */}
               <img
-                src={`https://api.dicebear.com/7.x/avataaars/svg?seed=${authUser?.id}`}
+                src={`https://api.dicebear.com/7.x/avataaars/svg?seed=${authUser._id}`}
                 alt="User Avatar"
                 referrerPolicy="no-referrer"
               />
