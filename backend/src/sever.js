@@ -17,10 +17,11 @@ const __dirname = path.resolve();
 
 app.use(
   cors({
-    origin: "https://nex-call-iota.vercel.app",
+    origin: "http://localhost:5173", 
     credentials: true, // allow frontend to send cookies
-  }),
+  })
 );
+
 
 app.use(express.json());
 app.use(cookieParser());
