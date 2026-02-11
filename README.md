@@ -1,1 +1,99 @@
-NexCall a 💬 Real-Time Chat and 📹 Video Calling app
+## ✨ NexCall a 💬 Real-Time Chat and 📹 Video Calling app ✨
+
+# Highlights:
+
+🌐 Real-time Messaging with Typing Indicators & Reactions
+
+📹 1-on-1 and Group Video Calls with Screen Sharing & Recording
+
+🔐 JWT Authentication & Protected Routes
+
+🌍 Language Exchange Platform with 32 Unique UI Themes
+
+⚡ Tech Stack: React + Express + MongoDB + TailwindCSS + TanStack Query
+
+🧠 Global State Management with Zustand
+
+🚨 Error Handling (Frontend & Backend)
+
+🚀 Free Deployment
+
+🎯 Built with Scalable Technologies like Stream
+
+⏳ And much more!
+
+🧪 .env Setup
+
+
+## Backend (/backend)
+
+* PORT=5001
+* MONGO_URI=your_mongo_uri
+* STEAM_API_KEY=your_steam_api_key
+* STEAM_API_SECRET=your_steam_api_secret
+* JWT_SECRET_KEY=your_jwt_secret
+* NODE_ENV=development
+  
+## Frontend (/frontend)
+
+* VITE_STREAM_API_KEY=your_stream_api_key
+
+## 🔧 Run the Backend
+
+* cd backend
+* npm install
+* npm run dev
+
+## 💻 Run the Frontend
+
+* cd frontend
+* npm install
+* npm run dev
+
+
+## 🧠 How It Works
+
+- **Authentication**: JWT tokens secure APIs and socket connections  
+- **Real-Time Chat**: WebSockets enable instant message delivery  
+- **State Management**: REST APIs + TanStack Query for caching and sync  
+- **Video Calls**: WebRTC handles peer-to-peer media streaming  
+- **Themes**: Tailwind + CSS variables for instant UI switching  
+
+
+## 🛠️ Tech Stack
+
+**Frontend**
+- React
+- TanStack Query
+- Tailwind CSS
+
+**Backend**
+- Node.js
+- Express
+- MongoDB
+- JWT Authentication
+- Socket.IO (WebSockets)
+
+**Other**
+- WebRTC (Video Calling)
+- REST APIs
+- Postman / Thunder Client (API Testing)
+
+1️⃣ Clone the repository
+git clone https://github.com/<your-username>/NexCall.git
+cd NexCall
+
+
+🤝 Contributing
+Contributions, issues, and feature requests are welcome!
+
+
+
+**Drop a star if you like it
+⭐ If you like NexCall, don’t forget to show some love!
+
+
+
+
+
+
