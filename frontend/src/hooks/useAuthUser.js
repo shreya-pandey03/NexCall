@@ -2,17 +2,12 @@ import { useQuery } from "@tanstack/react-query";
 import { getAuthUser } from "../lib/api";
 
 const useAuthUser = () => {
-  const query = useQuery({
+  const authUser = useQuery({
     queryKey: ["authUser"],
     queryFn: getAuthUser,
-    retry: false,
+    retry: false, // auth check
   });
 
-  return {
-    isLoading: query.isLoading,
-    authUser: query.data?.user ?? null,
-  };
+  return { isLoading: authUser.isLoading, authUser: authUser.data?.user };
 };
-
-
 export default useAuthUser;
