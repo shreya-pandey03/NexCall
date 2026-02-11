@@ -66,7 +66,6 @@ const App = () => {
           element={
             isAuthenticated && isOnboarded ? (
               <Layout showSidebar={true}>
-                {" "}
                 <FriendPage />
               </Layout>
             ) : (
